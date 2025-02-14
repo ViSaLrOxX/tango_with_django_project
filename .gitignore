@@ -1,0 +1,96 @@
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore C extensions
+*.so
+
+# Ignore virtual environment folders
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore package manager lock files
+Pipfile.lock
+poetry.lock
+pdm.lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# Ignore logs and database files
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore Django-specific files
+local_settings.py
+*.pot
+*.mo
+
+# Ignore static and media file caches
+/staticfiles/
+/media/
+
+# Ignore migration files (except __init__.py)
+rango/migrations/*.py
+!rango/migrations/__init__.py
+
+# Ignore test files
+rango/tests_*.py
+
+# Ignore Pytest, Tox, and Coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore JetBrains (PyCharm) project settings
+.idea/
+
+# Ignore Sphinx documentation build files
+docs/_build/
+
+# Ignore MyPy static type checking cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore Cython debug symbols
+cython_debug/
+
+# Ignore Pyre type checker files
+.pyre/
+
+# Ignore Rope project settings
+.ropeproject/
+
+# Ignore MkDocs documentation
+/site
+
+# Ignore Celery task queue files
+celerybeat-schedule
+celerybeat.pid
